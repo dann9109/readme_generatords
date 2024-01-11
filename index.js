@@ -14,6 +14,11 @@ const questions = [
         name: 'description',
         message: 'Enter a description of your project:',
     },
+    {
+        type: 'input',
+        name: 'Installation',
+        message: 'Enter installation steps of your project:',
+    },
     // Add more questions as needed
 ];
 
