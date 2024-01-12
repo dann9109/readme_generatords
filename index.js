@@ -10,6 +10,12 @@ const questions = [
         message: 'Enter the title of your project:',
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'Enter the license of your project:',
+        choices: ['MIT', 'Apache', 'GPL'],
+    },
+    {
         type: 'input',
         name: 'description',
         message: 'Enter a description of your project:',
@@ -49,7 +55,7 @@ const questions = [
         name: 'email',
         message: 'Enter email:',
     },
-    // Add more questions as needed
+
 ];
 
 // Function to prompt the user for their README details
