@@ -16,8 +16,38 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Enter installation steps of your project:',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Enter the usage of your project:',
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Enter contributing guidelines for your project:',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide information about the tests of your project:',
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Enter any questions about the project:',
+    },
+    {
+        type: 'input',
+        name: 'GitHub',
+        message: 'Enter GitHub username:',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter email:',
     },
     // Add more questions as needed
 ];
